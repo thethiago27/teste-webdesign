@@ -1,0 +1,55 @@
+@media screen and (max-width: 770px) {
+	#cases {
+        overflow: auto;
+        white-space: nowrap;
+        display: block;
+	}
+    div.containerb {        
+        display: inline-block;
+
+    }
+    .main {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .cases {
+        height: 70%;
+    }
+    .header {
+        height: 150%;
+    }
+    .about {
+        height: 120%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .modalDialog > div > img {
+        width: 105%;
+    }
+    .modalDialog > div {
+        width: 100%; /* Full width */
+        height: auto; /* Full height */
+        overflow-wrap: break-word;
+  
+    }
+    .bx_xl {
+        content: "";
+        clear: both;
+        display: table;
+        display: block;
+        position: absolute;
+        width: 100%;
+        overflow: scroll;
+        overflow-wrap: break-word;
+
+    }
+
+}
+
+
+.main {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
